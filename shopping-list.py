@@ -19,3 +19,11 @@ There is no automated checking on this one
 """
 
 shopping_list = []
+print("type 'exit' to stop adding items and print the shopping list")
+next_item = 0
+while next_item != "exit":
+    next_item = input("What do you want on your shopping list? ")
+    if next_item != "exit":
+        shopping_list.append(next_item)
+print(shopping_list)
+
